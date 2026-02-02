@@ -1,5 +1,6 @@
-# This is a test
+# Experiment info page
 
-Testtest
+Median nerve stimulation experiment
 
-Hi!
+m.j.terwal@tudelft.nl
+January 2026

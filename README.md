@@ -1,6 +1,7 @@
 # Experiment info page
 
-Median nerve stimulation experiment
+This page provides info to prospective participants of the median nerve stimulation experiment.
 
-m.j.terwal@tudelft.nl
-January 2026
+Marije ter Wal -- m.j.terwal@tudelft.nl
+
+-- January 2026

@@ -1,0 +1,84 @@
+
+/* basics */
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+body{margin:0}
+footer,header,main,nav,section{display:block}
+.main,#main{transition:margin-left .4s}
+.sidebar{height:100%;width:200px;background-color:#fff;position:fixed;z-index:1;overflow:auto}
+
+
+/* fonts */
+html,body{font-size:15px;line-height:1.5}
+html{overflow-x:hidden}
+b{font-weight:bolder}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+h1,h2,h3,h4,h5,h6{font-weight:400;margin:10px 0}
+h1,h2{font-family: "Bungee"}
+body,h3,h4,h5,h6 {font-family: "Inconsolata", sans-serif}
+.tiny{font-size:10px}
+.small{font-size:12px}
+.medium{font-size:15px}
+.large{font-size:18px}
+.xlarge{font-size:24px}
+.xxlarge{font-size:36px}
+.xxxlarge{font-size:48px}
+.jumbo{font-size:64px}
+.wide{letter-spacing:1px}
+
+
+/* images */
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('bgimg.jpg');
+  min-height: 100%;
+}
+.image{max-width:100%;height:auto}img{border-style:none;margin-bottom:0px;vertical-align:middle}
+.icon{width:36px;height:auto}img{border-style:none;margin-bottom:0px;vertical-align:middle}
+
+/* misc */
+@media (max-width:600px){.hide-small{display:none!important}}
+@media (min-width:993px){.hide-large{display:none!important}.sidebar.collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.hide-medium{display:none!important}}
+@media (max-width:992px){.sidebar.collapse{display:none}.main{margin-left:0!important;margin-right:0!important}}
+
+.tag{width:100%;background-color:#38290a;color:#f8e9ca;display:inline-block;padding-left:8px;padding-right:8px;padding-top:4px; padding-bottom:4px;text-align:center}
+
+
+/* alignment */
+.center.bar{display:inline-block;width:auto}
+.left-align{text-align:left}
+.right-align{text-align:right}
+.justify{text-align:justify}
+.center{text-align:center}
+
+
+/* Colors */
+.sand{color:#f8e9ca;background-color:#f8e9ca}
+.brown{color:#38290a;background-color:#38290a}
+.light-brown{color:#826b3b;background-color:#826b3b}
+.text-brown{color:#38290a}
+.text-sand{color:#f8e9ca}
+
+
+/* margins */
+.margin{margin:16px}
+.margin-top{margin-top:16px}
+.margin-bottom{margin-bottom:16px}
+.margin-left{margin-left:16px}
+.margin-right{margin-right:16px}
+.padding-small{padding:4px 8px}
+.padding{padding:8px 16px}
+.padding-large{padding:12px 24px}
+.padding-16{padding-top:16px;padding-bottom:16px}
+.padding-24{padding-top:24px;padding-bottom:24px}
+.padding-32{padding-top:32px;padding-bottom:32px}
+.padding-48{padding-top:48px;padding-bottom:48px}
+.padding-64{padding-top:64px;padding-bottom:64px}
+.padding-top-64{padding-top:64px}
+.padding-top-48{padding-top:48px}
+.padding-top-32{padding-top:32px}
+.padding-top-24{padding-top:24px}
+
+
